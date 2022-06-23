@@ -1,0 +1,12 @@
+import React from 'react'
+
+export default function Fragmento(){
+    //React.Fragment ou <> -> no lugar da div
+    return(
+        <>
+            <h2>Fragmento</h2>
+            <p>Cuidado com esse erro!!!</p>
+            <p>Os componentes devem estar envolvidos por uma tag</p>
+        </>
+    )
+}
